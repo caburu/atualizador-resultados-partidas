@@ -13,7 +13,7 @@ def update():
     headers = {'X-Auth-Token': API_KEY}
     
     # Define o intervalo de busca: ontem e hoje
-    ontem = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+    ontem = (datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')
     hoje = datetime.now().strftime('%Y-%m-%d')
     
     # Filtro de data diretamente na API para economizar banda
@@ -32,11 +32,18 @@ def update():
     data = response.json()
     matches = data.get('matches', [])
 
+    mudou = False
+
     # Se o arquivo brasil.csv não existir, criamos com o cabeçalho correto
     if not os.path.exists(CSV_FILE):
         df = pd.DataFrame(columns=['id', 'timeA', 'gols_timeA', 'x', 'gols_timeB', 'timeB'])
+        mudou = True
     else:
         df = pd.read_csv(CSV_FILE)
+
+    if not matches:
+        print("Nenhum jogo finalizado encontrado no período.")
+        return
 
     for match in matches:
         print(f"Processando jogo: {match['homeTeam']['name']} x {match['awayTeam']['name']} - Status: {match['status']}")
@@ -58,12 +65,14 @@ def update():
                     'timeB': away_team
                 }
                 df = pd.concat([df, pd.DataFrame([nova_linha])], ignore_index=True)
+                mudou = True
                 print(f"Adicionado: {home_team} {gols_a} x {gols_b} {away_team}")
             else:
                 print(f"Jogo {match_id} já existe no CSV.")
 
     # Salva o arquivo
-    df.to_csv(CSV_FILE, index=False)
+    if mudou:
+        df.to_csv(CSV_FILE, index=False)
 
 if __name__ == "__main__":
     update()
