@@ -87,6 +87,10 @@ def update():
     df = pd.read_csv(CSV_FILE)
     mudou = False
 
+    if not matches:
+        print("Nenhum jogo finalizado encontrado no período.")
+        return
+
     for match in matches:
         if match['status'] == 'FINISHED':
             home_api = match['homeTeam']['name']
