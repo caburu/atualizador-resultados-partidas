@@ -39,6 +39,7 @@ def update():
         df = pd.read_csv(CSV_FILE)
 
     for match in matches:
+        print(f"Processando jogo: {match['homeTeam']['name']} x {match['awayTeam']['name']} - Status: {match['status']}")
         if match['status'] == 'FINISHED':
             match_id = match['id']
             home_team = match['homeTeam']['name']
