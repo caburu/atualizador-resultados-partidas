@@ -13,7 +13,7 @@ def update():
     headers = {'X-Auth-Token': API_KEY}
     
     # Define o intervalo de busca: ontem e hoje
-    ontem = (datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')
+    ontem = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
     hoje = datetime.now().strftime('%Y-%m-%d')
     
     # Filtro de data diretamente na API para economizar banda
