@@ -11,16 +11,16 @@ URL = "https://api.football-data.org/v4/competitions/WC/matches"
 # Dicionário para mapear nomes da API (Inglês) para o seu CSV (Português)
 # Adicione todos os países do seu arquivo aqui
 mapa_nomes = {
-    "United States of America": "Estados Unidos",
+    "United States": "Estados Unidos",
     "South Africa": "África do Sul",
     "Ivory Coast": "Costa do Marfim",
-    "DR Congo": "RD Congo",
-    "Korea Republic": "Coreia do Sul",
-    "Czech Republic": "República Tcheca",
+    "Congo DR": "RD Congo",
+    "South Korea": "Coreia do Sul",
+    "Czechia": "República Tcheca",
     "Saudi Arabia": "Arábia Saudita",
     "New Zealand": "Nova Zelândia",
-    "Cape Verde": "Cabo Verde",
-    "Bosnia and Herzegovina": "Bósnia e Herzegovina",
+    "Cape Verde Island": "Cabo Verde",
+    "Bosnia-Herzegovina": "Bósnia e Herzegovina",
     "Mexico": "México",
     "Canada": "Canadá",
     "Qatar": "Catar",
@@ -32,7 +32,6 @@ mapa_nomes = {
     "Morocco": "Marrocos",
     "Scotland": "Escócia",
     "Germany": "Alemanha",
-    "Curacao": "Curaçao",
     "Ecuador": "Equador",
     "Japan": "Japão",
     "Sweden": "Suécia",
@@ -55,6 +54,11 @@ mapa_nomes = {
     "Panama": "Panamá",
     "Croatia": "Croácia",
     "Austria": "Áustria",
+    "Haiti": "Haiti",
+    "Curaçao": "Curaçao",
+    "Senegal": "Senegal",
+    "Argentina": "Argentina",
+    "Portugal": "Portugal",
 }
 
 def update():
@@ -99,8 +103,8 @@ def update():
             home_pt = mapa_nomes.get(home_api, home_api)
             away_pt = mapa_nomes.get(away_api, away_api)
             
-            gols_a = match['score']['fullTime']['home']
-            gols_b = match['score']['fullTime']['away']
+            gols_a = int(match['score']['fullTime']['home'])
+            gols_b = int(match['score']['fullTime']['away'])
 
             # Busca a linha onde os times batem
             mask = (df['timeA'] == home_pt) & (df['timeB'] == away_pt)
