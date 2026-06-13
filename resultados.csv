@@ -1,11 +1,11 @@
 id,timeA,gols_timeA,x,gols_timeB,timeB
-1,México,2.0,x,0.0,África do Sul
-2,Coreia do Sul,2.0,x,1.0,República Tcheca
+1,México,2,x,0,África do Sul
+2,Coreia do Sul,2,x,1,República Tcheca
 3,República Tcheca,,x,,África do Sul
 4,México,,x,,Coreia do Sul
 5,África do Sul,,x,,Coreia do Sul
 6,República Tcheca,,x,,México
-7,Canadá,1.0,x,1.0,Bósnia e Herzegovina
+7,Canadá,1,x,1,Bósnia e Herzegovina
 8,Catar,,x,,Suíça
 9,Suíça,,x,,Bósnia e Herzegovina
 10,Canadá,,x,,Catar
@@ -17,7 +17,7 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 22,Brasil,,x,,Haiti
 23,Marrocos,,x,,Haiti
 24,Escócia,,x,,Brasil
-13,Estados Unidos,4.0,x,1.0,Paraguai
+13,Estados Unidos,4,x,1,Paraguai
 14,Austrália,,x,,Turquia
 15,Estados Unidos,,x,,Austrália
 16,Turquia,,x,,Paraguai

@@ -121,6 +121,8 @@ def update():
                 print(f"Jogo {home_pt} {gols_a} x {gols_b} {away_pt} não encontrado no CSV. Verifique se os nomes estão corretos no mapa de nomes.")
 
     if mudou:
+        df['gols_timeA'] = df['gols_timeA'].astype('Int64')
+        df['gols_timeB'] = df['gols_timeB'].astype('Int64')
         df.to_csv(CSV_FILE, index=False)
         print("Arquivo resultados.csv atualizado.")
     else:
