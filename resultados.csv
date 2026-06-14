@@ -12,13 +12,13 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 11,Bósnia e Herzegovina,,x,,Catar
 12,Suíça,,x,,Canadá
 19,Brasil,1,x,1,Marrocos
-20,Haiti,,x,,Escócia
+20,Haiti,0,x,1,Escócia
 21,Escócia,,x,,Marrocos
 22,Brasil,,x,,Haiti
 23,Marrocos,,x,,Haiti
 24,Escócia,,x,,Brasil
 13,Estados Unidos,4,x,1,Paraguai
-14,Austrália,,x,,Turquia
+14,Austrália,2,x,0,Turquia
 15,Estados Unidos,,x,,Austrália
 16,Turquia,,x,,Paraguai
 17,Paraguai,,x,,Austrália
