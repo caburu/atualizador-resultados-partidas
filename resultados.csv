@@ -35,14 +35,14 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 34,Tunísia,,x,,Japão
 35,Japão,,x,,Suécia
 36,Tunísia,,x,,Holanda
-37,Bélgica,,x,,Egito
+37,Bélgica,1,x,1,Egito
 38,Irã,,x,,Nova Zelândia
 39,Bélgica,,x,,Irã
 40,Nova Zelândia,,x,,Egito
 41,Egito,,x,,Irã
 42,Nova Zelândia,,x,,Bélgica
 43,Espanha,,x,,Cabo Verde
-44,Arábia Saudita,,x,,Uruguai
+44,Arábia Saudita,1,x,1,Uruguai
 45,Espanha,,x,,Arábia Saudita
 46,Uruguai,,x,,Cabo Verde
 47,Cabo Verde,,x,,Arábia Saudita
