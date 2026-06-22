@@ -38,7 +38,7 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 37,Bélgica,1,x,1,Egito
 38,Irã,2,x,2,Nova Zelândia
 39,Bélgica,0,x,0,Irã
-40,Nova Zelândia,,x,,Egito
+40,Nova Zelândia,1,x,3,Egito
 41,Egito,,x,,Irã
 42,Nova Zelândia,,x,,Bélgica
 43,Espanha,,x,,Cabo Verde
