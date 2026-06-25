@@ -9,14 +9,14 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 8,Catar,1,x,1,Suíça
 9,Suíça,4,x,1,Bósnia e Herzegovina
 10,Canadá,6,x,0,Catar
-11,Bósnia e Herzegovina,,x,,Catar
-12,Suíça,,x,,Canadá
+11,Bósnia e Herzegovina,3,x,1,Catar
+12,Suíça,2,x,1,Canadá
 19,Brasil,1,x,1,Marrocos
 20,Haiti,0,x,1,Escócia
 21,Escócia,0,x,1,Marrocos
 22,Brasil,3,x,0,Haiti
-23,Marrocos,,x,,Haiti
-24,Escócia,,x,,Brasil
+23,Marrocos,4,x,2,Haiti
+24,Escócia,0,x,3,Brasil
 13,Estados Unidos,4,x,1,Paraguai
 14,Austrália,2,x,0,Turquia
 15,Estados Unidos,2,x,0,Austrália
