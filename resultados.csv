@@ -3,8 +3,8 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 2,Coreia do Sul,2,x,1,República Tcheca
 3,República Tcheca,1,x,1,África do Sul
 4,México,1,x,0,Coreia do Sul
-5,África do Sul,,x,,Coreia do Sul
-6,República Tcheca,,x,,México
+5,África do Sul,1,x,0,Coreia do Sul
+6,República Tcheca,0,x,3,México
 7,Canadá,1,x,1,Bósnia e Herzegovina
 8,Catar,1,x,1,Suíça
 9,Suíça,4,x,1,Bósnia e Herzegovina
