@@ -27,14 +27,14 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 26,Costa do Marfim,1,x,0,Equador
 27,Alemanha,2,x,1,Costa do Marfim
 28,Equador,0,x,0,Curaçao
-29,Curaçao,,x,,Costa do Marfim
-30,Equador,,x,,Alemanha
+29,Curaçao,0,x,2,Costa do Marfim
+30,Equador,2,x,1,Alemanha
 31,Holanda,2,x,2,Japão
 32,Suécia,5,x,1,Tunísia
 33,Holanda,5,x,1,Suécia
 34,Tunísia,0,x,4,Japão
-35,Japão,,x,,Suécia
-36,Tunísia,,x,,Holanda
+35,Japão,1,x,1,Suécia
+36,Tunísia,1,x,3,Holanda
 37,Bélgica,1,x,1,Egito
 38,Irã,2,x,2,Nova Zelândia
 39,Bélgica,0,x,0,Irã
