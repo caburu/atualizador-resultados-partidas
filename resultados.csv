@@ -21,8 +21,8 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 14,Austrália,2,x,0,Turquia
 15,Estados Unidos,2,x,0,Austrália
 16,Turquia,0,x,1,Paraguai
-17,Paraguai,,x,,Austrália
-18,Turquia,,x,,Estados Unidos
+17,Paraguai,0,x,0,Austrália
+18,Turquia,3,x,2,Estados Unidos
 25,Alemanha,7,x,1,Curaçao
 26,Costa do Marfim,1,x,0,Equador
 27,Alemanha,2,x,1,Costa do Marfim
