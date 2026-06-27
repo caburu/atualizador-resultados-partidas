@@ -46,13 +46,13 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 45,Espanha,4,x,0,Arábia Saudita
 46,Uruguai,,x,,Cabo Verde
 47,Cabo Verde,,x,,Arábia Saudita
-48,Uruguai,,x,,Espanha
+48,Uruguai,0,x,1,Espanha
 49,França,3,x,1,Senegal
 50,Iraque,1,x,4,Noruega
 51,França,3,x,0,Iraque
 52,Noruega,3,x,2,Senegal
-53,Senegal,,x,,Iraque
-54,Noruega,,x,,França
+53,Senegal,5,x,0,Iraque
+54,Noruega,1,x,4,França
 55,Argentina,3,x,0,Argélia
 56,Áustria,3,x,1,Jordânia
 57,Argentina,2,x,0,Áustria
