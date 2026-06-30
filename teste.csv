@@ -1,10 +1,10 @@
 id,timeA,gols_timeA,x,gols_timeB,timeB
-1,México,2,x,0,África do Sul
-2,Coreia do Sul,2,x,1,República Tcheca
-3,República Tcheca,1,x,1,África do Sul
-4,México,1,x,0,Coreia do Sul
-5,África do Sul,1,x,0,Coreia do Sul
-6,República Tcheca,0,x,3,México
+1,México,,x,,África do Sul
+2,Coreia do Sul,,x,,República Tcheca
+3,República Tcheca,,x,,África do Sul
+4,México,,x,,Coreia do Sul
+5,África do Sul,,x,,Coreia do Sul
+6,República Tcheca,,x,,México
 7,Canadá,1,x,1,Bósnia e Herzegovina
 8,Catar,1,x,1,Suíça
 9,Suíça,4,x,1,Bósnia e Herzegovina
@@ -41,11 +41,11 @@ id,timeA,gols_timeA,x,gols_timeB,timeB
 40,Nova Zelândia,1,x,3,Egito
 41,Egito,1,x,1,Irã
 42,Nova Zelândia,1,x,5,Bélgica
-43,Espanha,0,x,0,Cabo Verde
+43,Espanha,,x,,Cabo Verde
 44,Arábia Saudita,1,x,1,Uruguai
 45,Espanha,4,x,0,Arábia Saudita
-46,Uruguai,2,x,2,Cabo Verde
-47,Cabo Verde,0,x,0,Arábia Saudita
+46,Uruguai,,x,,Cabo Verde
+47,Cabo Verde,,x,,Arábia Saudita
 48,Uruguai,0,x,1,Espanha
 49,França,3,x,1,Senegal
 50,Iraque,1,x,4,Noruega
